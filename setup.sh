@@ -34,6 +34,7 @@ sudo systemctl start ufw
 sudo ufw default allow outgoing
 sudo ufw default deny incoming
 sudo ufw allow from 192.168.0.0/24 to any port 22
+sudo ufw allow from 192.168.0.0/24 to any port 80
 sudo ufw enable
 
 # change shell
