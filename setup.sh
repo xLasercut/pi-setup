@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# setup home config
+pushd ./linux-home-config
+setup.sh
+popd
+
 # upgrade system
 sudo apt-get update
 sudo apt-get full-upgrade
