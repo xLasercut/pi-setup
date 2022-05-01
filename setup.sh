@@ -28,4 +28,5 @@ sudo ufw allow from 192.168.0.0/24 to any port 22
 sudo ufw enable
 
 # change shell
+git clone https://github.com/zsh-users/antigen.git ~/antigen
 chsh -s /bin/zsh
