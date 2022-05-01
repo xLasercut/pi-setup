@@ -14,7 +14,7 @@ sudo apt-get update
 sudo apt-get full-upgrade
 
 # install new packages
-sudo apt-get install zsh ufw
+sudo apt-get install zsh ufw vim
 
 # setup docker
 curl -fsSL https://get.docker.com -o get-docker.sh
