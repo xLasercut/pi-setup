@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# setup submodules
+git submodule init
+git submodule update
+
 # setup home config
 pushd ./linux-home-config
 setup.sh
