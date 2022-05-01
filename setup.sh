@@ -6,7 +6,7 @@ git submodule update
 
 # setup home config
 pushd ./linux-home-config
-setup.sh
+./setup.sh
 popd
 
 # upgrade system
