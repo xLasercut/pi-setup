@@ -16,6 +16,7 @@ sudo apt-get install zsh ufw vim jq
 pushd ./linux-home-config
 source linux_setup.sh
 linux_setup setup base
+linux_setup ssh server
 popd
 
 # setup docker
